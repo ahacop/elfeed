@@ -68,7 +68,7 @@
   </author>
 
   <entry xml:base=\"/2003/12/13/\">
-    <title>Atom-Powered Robots Run Amok</title>
+    <title type=\"html\">Atom-Powered Robots Run <b>Amok</b> &amp; More</title>
     <link href=\"atom03\"/>
     <link rel=\"alternate\" type=\"text/html\"
           href=\"/2003/atom03.html\"/>
@@ -270,7 +270,7 @@
           (should (string= (elfeed-feed-title (elfeed-db-get-feed url))
                            "Example Feed"))
           (should (string= (elfeed-entry-title a)
-                           "Atom-Powered Robots Run Amok"))
+                           "Atom-Powered Robots Run Amok & More"))
           ;; Entry A
           (should (string= (elfeed-entry-link a)
                            "http://example.org/2003/atom03.html"))
